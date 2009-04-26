@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<meta name="Keywords" content="Geoffrey, Blair, Geoff, resume, web, developer, front end, engineer, HTML, XHTML, DHTML, CSS, JavaScript, PHP, AJAX, CVS, Subversion, Apache, MySQL, Linux">
@@ -30,6 +30,7 @@
 			.basic a:hover {text-decoration:underline;}
 			.basic #doc {width:974px;margin:2em auto;}
 			.basic #hd {margin-bottom:1em;}
+			.basic #hd .name .title {margin-left:5px;}
 			.basic .mod {margin-bottom:2em;}
 			.basic .contact {overflow:hidden;}
 			.basic .contact .name {float:left;}
@@ -39,7 +40,9 @@
 			.basic .mod .ft {text-align:right;}
 			.basic .mod .hd {margin-bottom:1em;}
 			.basic #ft p {text-align:center;font-size:0.8em;line-height:2.5;}
-			.basic .mod h2 {background:#eee;padding:0.3125em 0.5em;}
+			.basic .mod h2 {background:#eee;padding:0.3125em 0.5em;-moz-border-radius:20px 0 20px 0;}
+			.basic .mod .bd .summary ul {padding-left:25px;}
+			.basic .mod .bd .summary li {list-style-type:square;list-style-position:outside;margin-bottom:0;}
 		</style>
 	</head>
 	
@@ -69,7 +72,7 @@
 					<div class="hd"><h2>Objective</h2></div>
 					<div class="bd"><p class="summary">Create stable, scalable, accessible, secure and engaging web applications and interfaces.</p></div>
 					<div class="ft"><a href="#geoffrey-blair-resume" title="Back to top">Top</a></div>
-				</div>
+				</div><!-- #objective -->
 			
 				<div id="skills" class="mod">
 					<div class="hd"><h2>Skills</h2></div>
@@ -78,7 +81,7 @@
 						<p>HTML, DHTML, CSS, PHP, JavaScript, AJAX, Adobe Photoshop, web application performance, XML, JSON, Apache, CVS, Subversion, Object Oriented Programming, SQL</p>
 					</div>
 					<div class="ft"><a href="#geoffrey-blair-resume" title="Back to top">Top</a></div>					
-				</div>
+				</div><!-- #skills -->
 			
 				<div id="experience" class="mod">
 					<div class="hd"><h2>Experience</h2></div>
@@ -92,7 +95,13 @@
 								<span class="duration">
 									<abbr class="dtstart" title="2007-04-29">April 2007</abbr> - <span class="dtend">Present</span>
 								</span>
-								<div class="summary">HTML, CSS, PHP, Javascript, AJAX, Apache</div>
+								<div class="summary">
+									<ul>
+										<li>Some exciting bullet point</li>
+										<li>I'm so awesome, hire me</li>
+										<li>Yet another good reason to give me a job!</li>
+									</ul>
+								</div>
 							</li>
 							<li class="experience vcard vevent">
 								<object data="#geoffrey-blair-name" class="include"></object>
@@ -102,7 +111,14 @@
 								<span class="duration">
 									<abbr class="dtstart" title="2006-07-01">July 2006</abbr> - <abbr class="dtend" title="2007-04-01">April 2007</abbr>
 								</span>	
-								<div class="summary">HTML, CSS, PHP, Javascript, AJAX</div>
+								<div class="summary">
+									<p>HTML, CSS, PHP, Javascript, AJAX</p>
+									<ul>
+										<li>Some exciting bullet point</li>
+										<li>I'm so awesome, hire me</li>
+										<li>Yet another good reason to give me a job!</li>
+									</ul>
+								</div>
 							</li>
 							<li class="experience vcard vevent">
 								<object data="#geoffrey-blair-name" class="include"></object>
@@ -110,9 +126,16 @@
 								<address class="location">San Diego, CA</address>
 								<h4 class="title">Senior Software Developer</h4>
 								<span class="duration">
-									<abbr class="dtstart" title="2001-06-11">June 2001</abbr> - <abbr class="dtend" title="2006-07-01">July 2007</abbr>
+									<abbr class="dtstart" title="2001-06-11">June 2001</abbr> - <abbr class="dtend" title="2006-07-01">July 2006</abbr>
 								</span>
-								<div class="summary">HTML, CSS, ASP, VBScript, IIS, MS SQL Server, Visual Basic 6</div>
+								<div class="summary">
+									<p>HTML, CSS, ASP, VBScript, IIS, MS SQL Server, Visual Basic 6</p>
+									<ul>
+										<li>Some exciting bullet point</li>
+										<li>I'm so awesome, hire me</li>
+										<li>Yet another good reason to give me a job!</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div><!-- .bd -->
@@ -124,21 +147,47 @@
 					<div class="bd">
 						<ul>
 							<li>
+								<h3>Shapes</h3>
+								Play: <a href="http://geoffblair.com/games/shapes">http://geoffblair.com/games/shapes</a>
+								Source: <a href="http://github.com/geoffb/shapes">http://github.com/geoffb/shapes</a>
+								<span>2008</span>
+								<div class="summary">
+									<p>DHTML Geometry Wars clone</p>
+									<ul>
+										<li>blah blah blah</li>
+									</ul>
+								</div>
+							</li>
+							<li>
 								<h3>WoW Monkey</h3>
 								<a href="http://wowmonkey.net">http://wowmonkey.net</a>
 								<span>2006</span>
-								<p>Database of World of Warcraft game information.</p>
+								<div class="summary">
+									<p>Online, searchable database of World of Warcraft game information. Alpha stage.</p>
+									<ul>
+										<li>Reverse engineered and wrote custom parser for World of Warcraft data files</li>
+										<li>Designed MySQL database and import</li>
+										<li></li>
+									</ul>
+								</div>
 							</li>
 							<li>
 								<h3>San Diego Professional Coaches Alliance</h3>
 								<a href="http://sandiegocoaches.com">http://sandiegocoaches.com</a>
 								<span>2002-2003</span>
-								<p>Database driven website for local business and personal coaching organization.</p>
+								<div class="summary">
+									<p>Database driven website for local business and personal coaching organization.</p>
+									<ul>
+										<li>signups and membership renewal via PayPal</li>
+										<li>Editable member profile pages listing services</li>
+										<li>Advanced search of coaches by specialities/services</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
 					<div class="ft"><a href="#geoffrey-blair-resume" title="Back to top">Top</a></div>
-				</div> <!-- #side-projects -->
+				</div><!-- #side-projects -->
 				
 				<div id="other-interests" class="mod">
 					<div class="hd"><h2>Other Interests</h2></div>
@@ -147,19 +196,21 @@
 						<p>I'm a hardcore gamer who loves any type of contest especially video, board and card games.</p>
 					</div>
 					<div class="ft"><a href="#geoffrey-blair-resume" title="Back to top">Top</a></div>
-				</div>
+				</div><!-- #other-interests -->
 				
 				<div id="references" class="mod">
 					<div class="hd"><h2>References</h2></div>
 					<div class="bd"><p class="summary">Available upon <a href="mailto:resume@geoffblair.com" title="Email Geoffrey Blair">request</a>.</p></div>
 					<div class="ft"><a href="#geoffrey-blair-resume" title="Back to top">Top</a></div>
-				</div>
+				</div><!-- #references -->
 				
 			</div><!-- #bd -->
 			
 			<div id="ft">
+				<!--
 				<p><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fgeoffblair.com%2Fresume%2F" title="Valid HTML 4.01 Strict">HTML</a> and CSS coded by Geoffrey M. Blair</p>
 				<p>This document uses <a href="http://developer.yahoo.com/yui/reset/" title="Visit YUI Reset CSS">YUI Reset CSS</a> and <a href="http://microformats.org" title="Visit Microformats">Microformats</a>.</p>
+				-->
 			</div><!-- #ft -->
 	
 		</div><!-- .hresume -->
