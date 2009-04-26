@@ -1,8 +1,10 @@
 h1. Geoffrey M. Blair
 
-p.Email: "resume@geoffblair.com":mailto:resume@geoffblair.com
-p.Phone: (408) 512-0238
-p.Web: "http://resume.geoffblair.com":http://resume.geoffblair.com
+Email: "resume@geoffblair.com":mailto:resume@geoffblair.com
+
+Phone: (408) 512-0238
+
+Web: "http://resume.geoffblair.com":http://resume.geoffblair.com
 
 h2. Objective
 
@@ -16,10 +18,13 @@ h2. Experience
 
 h3. Yahoo!, Inc. - Yahoo! Games
 
-p.Santa Monica, CA / Sunnyvale, CA
-p.Front-End Engineer / Web Developer
-p.April 2007 - Present
-p."http://games.yahoo.com":http://games.yahoo.com
+Santa Monica, CA / Sunnyvale, CA
+
+Front-End Engineer / Web Developer
+
+April 2007 - Present
+
+"http://games.yahoo.com":http://games.yahoo.com
 
 * Project lead for complete redesign of Yahoo! Games front end
 * Re-factored much legacy front end code including a PHP4 to PHP5 conversion
@@ -30,10 +35,13 @@ p."http://games.yahoo.com":http://games.yahoo.com
 
 h3. Farheap Solutions
 
-p.Santa Ana, CA
-p.Software Developer
-p.July 2006 - April 2007
-p."http://www.farheap.com/":http://www.farheap.com/
+Santa Ana, CA
+
+Software Developer
+
+July 2006 - April 2007
+
+"http://www.farheap.com/":http://www.farheap.com/
 
 * Created web based UI for printing industry product fulfillment application
 * Developed for web based touchscreen and mobile devices
@@ -42,10 +50,13 @@ p."http://www.farheap.com/":http://www.farheap.com/
 
 h3. Data Strategies, Inc.
 
-p.San Diego, CA
-p.Senior Software Developer
-p.June 2001 - July 2006
-p."http://www.elligence.net/":http://www.elligence.net/
+San Diego, CA
+
+Senior Software Developer
+
+June 2001 - July 2006
+
+"http://www.elligence.net/":http://www.elligence.net/
 
 * Extensive work on browser based client (IE6 within a VB6 application)
 * Created desktop like interactions for browser based client
@@ -62,25 +73,30 @@ h2. Side Projects
 
 h3. Shapes
 
-p.2008
-p.Play: "http://geoffblair.com/games/shapes":http://geoffblair.com/games/shapes
-p.Source: "http://github.com/geoffb/shapes":http://github.com/geoffb/shapes
+2008
+
+Play: "http://geoffblair.com/games/shapes":http://geoffblair.com/games/shapes
+
+Source: "http://github.com/geoffb/shapes":http://github.com/geoffb/shapes
 
 * JavaScript/DHTML clone of Geometry Wars
 
 h3. WoW Monkey
 
-p.2006
-p.Web: "http://wowmonkey.net":http://wowmonkey.net
-p.Source: "http://github.com/geoffb/wowmonkey":http://github.com/geoffb/wowmonkey
+2006
+
+Web: "http://wowmonkey.net":http://wowmonkey.net
+
+Source: "http://github.com/geoffb/wowmonkey":http://github.com/geoffb/wowmonkey
 
 * Online database of World of Warcraft game information
 * Reverse engineered and wrote custom parser for World of Warcraft game data files
 
 h3. San Diego Professional Coaches Alliance
 
-p.2002-2003
-p."http://sandiegocoaches.com":http://sandiegocoaches.com
+2002-2003
+
+"http://sandiegocoaches.com":http://sandiegocoaches.com
 
 * Online presence for business and personal consultant group
 * Members profiles which list specialties and services
